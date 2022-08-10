@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "typeRoots": [
-      "types/index.d.ts"
+      "types/index.d.ts",
     ],
     "target": "es5",
     "lib": [
