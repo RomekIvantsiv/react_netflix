@@ -20,6 +20,7 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    'react/require-default-props': 'off',
     'no-shadow': 'off',
     'arrow-body-style': 'off',
     'react/function-component-definition': [

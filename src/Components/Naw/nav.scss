@@ -1,0 +1,37 @@
+.nav {
+  z-index: 1;
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+
+  &__logo {
+    width: 80px;
+    object-fit: contain;
+  }
+
+  &__buttons-in {
+    color: white;
+    padding: 8px 24px;
+    cursor: pointer;
+  }
+
+  &__buttons-up {
+    background-color: rgba(220, 38, 38, 1);
+    padding: 8px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  &__black {
+    background-color: #111;
+  }
+}
